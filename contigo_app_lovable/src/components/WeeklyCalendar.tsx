@@ -137,8 +137,8 @@ const DayComponent = ({
 
 export const WeeklyCalendar = ({ weekData, onDayClick }: WeeklyCalendarProps) => {
   return (
-    <Card className="p-5">
-      <h3 className="text-lg font-semibold mb-4">Esta semana</h3>
+    <Card className="px-4 py-3">
+      <h3 className="text-lg font-semibold mb-2">Esta semana</h3>
       <div className="flex justify-between gap-1">
         {weekData.map((dayData, index) => (
           <DayComponent
