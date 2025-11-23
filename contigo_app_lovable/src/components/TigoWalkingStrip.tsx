@@ -1,4 +1,4 @@
-import tigoPenguin from "@/assets/tigo-penguin.png";
+import tigoPenguin from "@/assets/tigo-walking-blue-penguin.png";
 import { Footprints } from "lucide-react";
 
 interface TeamMember {
